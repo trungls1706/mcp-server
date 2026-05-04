@@ -4,8 +4,7 @@
     "description": "MCP Server demo with Express + MongoDB for blog CRUD",
     "main": "src/index.js",
     "author": {
-        "name": "Hỏi Dân IT vs Eric",
-        "url": "https://hoidanit.vn"
+        "name": "Trung"
     },
     "scripts": {
         "commit": "git add . && git commit -m \"update\" && git push",
