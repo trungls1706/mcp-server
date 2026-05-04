@@ -8,7 +8,7 @@ Demo MCP Server kết nối Claude với ứng dụng Blog (Express + MongoDB).
 
 ```bash
 # Start MongoDB + App
-docker compose -p hoidanit-mcp-blog up -d
+docker compose -p trunglyson-mcp-blog up -d
 ```
 Server sẽ chạy tại:
 - **API**: http://localhost:3000/api/posts

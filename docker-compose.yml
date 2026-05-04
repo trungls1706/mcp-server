@@ -9,7 +9,7 @@ services:
     environment:
       - MONGO_INITDB_DATABASE=mcp_blog
     healthcheck:
-      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      test: [ "CMD", "mongosh", "--eval", "db.adminCommand('ping')" ]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -30,4 +30,4 @@ services:
 volumes:
   mongo_data:
 
-# docker compose -p hoidanit-mcp-blog up -d
+    # docker compose -p trunglyson-mcp-blog up -d
