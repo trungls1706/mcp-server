@@ -1,0 +1,21 @@
+{
+    "name": "mcp-blog-demo",
+    "version": "1.0.0",
+    "description": "MCP Server demo with Express + MongoDB for blog CRUD",
+    "main": "src/index.js",
+    "author": {
+        "name": "Hỏi Dân IT vs Eric",
+        "url": "https://hoidanit.vn"
+    },
+    "scripts": {
+        "commit": "git add . && git commit -m \"update\" && git push",
+        "start": "node src/index.js",
+        "dev": "node --watch src/index.js"
+    },
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "1.27.1",
+        "express": "5.2.1",
+        "mongoose": "9.3.1",
+        "cors": "2.8.6"
+    }
+}
